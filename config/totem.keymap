@@ -114,7 +114,7 @@
           &kp N1    &kp N2     &kp N3       &kp N4     &kp N5     &kp N6                &kp N7                 &kp N8         &kp N9  &kp N0
           &kp UP    &kp ESC    &kp TAB      &kp COMMA  &kp DOT    &kp LBKT              &kp RBKT               &kp BACKSLASH  &trans  &trans
 &kp LEFT  &kp DOWN  &kp RIGHT  &kp LA(TAB)  &kp SEMI   &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans  &trans  &trans
-                               &trans       &kp BSPC   &trans     &kp RET               &kp SPACE              &tog 0
+                               &trans       &kp BSPC   &tog 0     &kp RET               &kp SPACE              &tog 0
             >;
         };
 
@@ -140,7 +140,7 @@
         &kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH        &kp PERCENT        &trans          &mmv MOVE_UP    &trans           &trans       &trans
         &kp DEL    &kp PERCENT      &kp CARET    &kp AMPERSAND   &kp ASTERISK       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp C_PAUSE  &trans
 &trans  &trans     &kp MINUS        &kp EQUAL    &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp C_VOL_DN    &kp C_VOL_UP    &kp C_PREV       &kp C_NEXT   &trans  &trans
-                                    &mkp MB2     &mkp MB1        &trans             &trans          &trans          &tog 0
+                                    &mkp MB2     &mkp MB1        &tog 0             &trans          &trans          &tog 0
             >;
         };
 
@@ -163,10 +163,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-          &kp PAGE_UP    &kp F1  &kp F2     &kp F3    &kp F4       &kp LC(LS(ESC))  &kp LC(S)  &trans  &trans  &trans
-          &kp PAGE_DOWN  &kp F5  &kp F6     &kp F7    &kp F8       &kp LC(F)        &kp LC(Y)  &trans  &trans  &trans
-&kp HOME  &kp END        &kp F9  &kp F10    &kp F11   &kp F12      &kp LC(Z)        &kp LC(A)  &trans  &trans  &bootloader  &bt BT_CLR_ALL
-                                 &kp LC(C)  &kp BSPC  &kp LC(V)    &kp RET          &kp SPACE  &tog 0
+          &kp PAGE_UP    &kp F1  &kp F2     &kp F3     &kp F4     &kp LC(LS(ESC))  &kp LC(S)  &trans  &trans  &trans
+          &kp PAGE_DOWN  &kp F5  &kp F6     &kp F7     &kp F8     &kp LC(F)        &kp LC(Y)  &trans  &trans  &trans
+&kp HOME  &kp END        &kp F9  &kp F10    &kp F11    &kp F12    &kp LC(Z)        &kp LC(A)  &trans  &trans  &bootloader  &bt BT_CLR_ALL
+                                 &kp LC(C)  &kp LC(V)  &tog 0     &kp RET          &kp SPACE  &tog 0
             >;
         };
 
